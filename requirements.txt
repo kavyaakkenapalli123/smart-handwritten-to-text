@@ -1,0 +1,7 @@
+flask
+pytesseract
+pillow
+easyocr
+opencv-python
+torch
+torchvision

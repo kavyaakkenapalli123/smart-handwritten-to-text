@@ -1,0 +1,77 @@
+body {
+
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.main-container {
+
+    max-width: 750px;
+}
+
+.card {
+
+    border-radius: 20px;
+
+    border: none;
+
+    background: rgba(255,255,255,0.95);
+}
+
+.title {
+
+    text-align: center;
+
+    font-weight: bold;
+
+    color: #0f172a;
+}
+
+.subtitle {
+
+    text-align: center;
+
+    color: #64748b;
+
+    margin-bottom: 30px;
+}
+
+.btn-custom {
+
+    background: #2563eb;
+
+    color: white;
+
+    padding: 12px;
+
+    border-radius: 12px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+
+    background: #1d4ed8;
+
+    color: white;
+}
+
+.result-box textarea {
+
+    border-radius: 12px;
+
+    resize: none;
+
+    background: #f8fafc;
+}
